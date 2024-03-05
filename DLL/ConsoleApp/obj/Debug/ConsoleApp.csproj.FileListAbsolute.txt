@@ -1,0 +1,10 @@
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\obj\Debug\ConsoleApp.csproj.AssemblyReference.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\bin\Debug\DLL.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\bin\Debug\DLL.pdb
+C:\0 - Personal\portfolio\projects\coding-csharp\DLL\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
