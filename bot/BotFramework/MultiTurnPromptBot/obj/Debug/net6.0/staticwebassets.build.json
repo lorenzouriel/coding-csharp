@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "efRhnGvmGt3Dz49YTivrJuscSQe6dnC7/IR2+FVA2CQ=",
+  "Source": "MultiTurnPromptBot",
+  "BasePath": "_content/MultiTurnPromptBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MultiTurnPromptBot\\wwwroot",
+      "Source": "MultiTurnPromptBot",
+      "ContentRoot": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\05.multi-turn-prompt\\wwwroot\\",
+      "BasePath": "_content/MultiTurnPromptBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\05.multi-turn-prompt\\wwwroot\\default.html",
+      "SourceId": "MultiTurnPromptBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\05.multi-turn-prompt\\wwwroot\\",
+      "BasePath": "_content/MultiTurnPromptBot",
+      "RelativePath": "default.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.html"
+    }
+  ]
+}

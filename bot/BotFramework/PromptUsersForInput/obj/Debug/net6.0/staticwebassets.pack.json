@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\44.prompt-users-for-input\\wwwroot\\default.htm",
+      "PackagePath": "staticwebassets\\default.htm"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PromptUsersForInput.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PromptUsersForInput.props",
+      "PackagePath": "build\\PromptUsersForInput.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PromptUsersForInput.props",
+      "PackagePath": "buildMultiTargeting\\PromptUsersForInput.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PromptUsersForInput.props",
+      "PackagePath": "buildTransitive\\PromptUsersForInput.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,140 @@
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\appsettings.Development.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\parameters-for-template-AzureBot-with-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\parameters-for-template-BotApp-with-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\template-AzureBot-with-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\template-BotApp-with-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\parameters-for-template-AzureBot-new-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\parameters-for-template-BotApp-new-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\template-AzureBot-new-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\template-BotApp-new-rg.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Resources\FlightItineraryCard.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Resources\ImageGalleryCard.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Resources\LargeWeatherCard.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Resources\RestaurantCard.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Resources\SolitaireCard.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCardsBot.staticwebassets.runtime.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCardsBot.exe
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\appsettings.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCardsBot.deps.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCardsBot.runtimeconfig.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCardsBot.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCardsBot.pdb
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\AdaptiveCards.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Builder.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Builder.Dialogs.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Configuration.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Connector.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Connector.Streaming.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Schema.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Bot.Streaming.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Recognizers.Definitions.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Recognizers.Text.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Recognizers.Text.Choice.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Recognizers.Text.DateTime.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Recognizers.Text.Number.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.csproj.AssemblyReference.cache
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.AssemblyInfoInputs.cache
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.AssemblyInfo.cs
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.csproj.CoreCompileInputs.cache
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.MvcApplicationPartsAssemblyInfo.cs
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.MvcApplicationPartsAssemblyInfo.cache
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets\msbuild.AdaptiveCardsBot.Microsoft.AspNetCore.StaticWebAssets.props
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets\msbuild.build.AdaptiveCardsBot.props
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AdaptiveCardsBot.props
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AdaptiveCardsBot.props
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets.pack.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets.build.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\staticwebassets.development.json
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\scopedcss\bundle\AdaptiveCardsBot.styles.css
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.csproj.CopyComplete
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\refint\AdaptiveCardsBot.dll
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.pdb
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\AdaptiveCardsBot.genruntimeconfig.cache
+C:\BotFramework\BotBuilder-Samples\samples\csharp_dotnetcore\07.using-adaptive-cards\obj\Debug\net6.0\ref\AdaptiveCardsBot.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\appsettings.Development.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\parameters-for-template-AzureBot-with-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\parameters-for-template-BotApp-with-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\template-AzureBot-with-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployUseExistResourceGroup\template-BotApp-with-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\parameters-for-template-AzureBot-new-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\parameters-for-template-BotApp-new-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\template-AzureBot-new-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\DeploymentTemplates\DeployWithNewResourceGroup\template-BotApp-new-rg.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Resources\FlightItineraryCard.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Resources\ImageGalleryCard.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Resources\LargeWeatherCard.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Resources\RestaurantCard.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Resources\SolitaireCard.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCardsBot.staticwebassets.runtime.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCardsBot.exe
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\appsettings.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCardsBot.deps.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCardsBot.runtimeconfig.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCardsBot.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCardsBot.pdb
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\AdaptiveCards.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Builder.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Builder.Dialogs.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Builder.Integration.AspNet.Core.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Configuration.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Connector.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Connector.Streaming.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Schema.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Bot.Streaming.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Recognizers.Definitions.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Recognizers.Text.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Recognizers.Text.Choice.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Recognizers.Text.DateTime.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Recognizers.Text.Number.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Recognizers.Text.NumberWithUnit.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Microsoft.Rest.ClientRuntime.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.csproj.AssemblyReference.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.AssemblyInfoInputs.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.AssemblyInfo.cs
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.csproj.CoreCompileInputs.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.MvcApplicationPartsAssemblyInfo.cs
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.MvcApplicationPartsAssemblyInfo.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets\msbuild.AdaptiveCardsBot.Microsoft.AspNetCore.StaticWebAssets.props
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets\msbuild.build.AdaptiveCardsBot.props
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.AdaptiveCardsBot.props
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.AdaptiveCardsBot.props
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets.pack.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets.build.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\staticwebassets.development.json
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\scopedcss\bundle\AdaptiveCardsBot.styles.css
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.csproj.CopyComplete
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\refint\AdaptiveCardsBot.dll
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.pdb
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\AdaptiveCardsBot.genruntimeconfig.cache
+C:\0 - Personal\portfolio\projects\coding-csharp\bot\BotFramework\AdaptiveCardsBot\obj\Debug\net6.0\ref\AdaptiveCardsBot.dll

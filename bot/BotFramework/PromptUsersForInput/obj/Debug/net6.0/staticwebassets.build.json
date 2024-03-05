@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "9A+uYUW0gEGp/UlLhttEdH/gLu9bNzvP54OU1foP1Ys=",
+  "Source": "PromptUsersForInput",
+  "BasePath": "_content/PromptUsersForInput",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PromptUsersForInput\\wwwroot",
+      "Source": "PromptUsersForInput",
+      "ContentRoot": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\44.prompt-users-for-input\\wwwroot\\",
+      "BasePath": "_content/PromptUsersForInput",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\44.prompt-users-for-input\\wwwroot\\default.htm",
+      "SourceId": "PromptUsersForInput",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\BotFramework\\BotBuilder-Samples\\samples\\csharp_dotnetcore\\44.prompt-users-for-input\\wwwroot\\",
+      "BasePath": "_content/PromptUsersForInput",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}

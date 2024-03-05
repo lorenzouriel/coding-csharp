@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\0 - Personal\\portfolio\\projects\\coding-csharp\\bot\\BotFramework\\CardsBot\\wwwroot\\default.htm",
+      "PackagePath": "staticwebassets\\default.htm"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.CardsBot.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.CardsBot.props",
+      "PackagePath": "build\\CardsBot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.CardsBot.props",
+      "PackagePath": "buildMultiTargeting\\CardsBot.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.CardsBot.props",
+      "PackagePath": "buildTransitive\\CardsBot.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

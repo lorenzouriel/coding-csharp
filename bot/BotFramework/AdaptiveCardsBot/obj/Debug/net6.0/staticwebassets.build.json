@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "zr4E9rO0c4zFgaI3KJVtjfVaFZ2aTtSH0PyllVG82bk=",
+  "Source": "AdaptiveCardsBot",
+  "BasePath": "_content/AdaptiveCardsBot",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AdaptiveCardsBot\\wwwroot",
+      "Source": "AdaptiveCardsBot",
+      "ContentRoot": "C:\\0 - Personal\\portfolio\\projects\\coding-csharp\\bot\\BotFramework\\AdaptiveCardsBot\\wwwroot\\",
+      "BasePath": "_content/AdaptiveCardsBot",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\0 - Personal\\portfolio\\projects\\coding-csharp\\bot\\BotFramework\\AdaptiveCardsBot\\wwwroot\\default.htm",
+      "SourceId": "AdaptiveCardsBot",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\0 - Personal\\portfolio\\projects\\coding-csharp\\bot\\BotFramework\\AdaptiveCardsBot\\wwwroot\\",
+      "BasePath": "_content/AdaptiveCardsBot",
+      "RelativePath": "default.htm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\default.htm"
+    }
+  ]
+}
