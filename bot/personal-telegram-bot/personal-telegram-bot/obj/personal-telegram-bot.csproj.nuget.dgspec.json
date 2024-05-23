@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\loren\\source\\test\\BotTelegram\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {}
+    "C:\\Projects\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\loren\\source\\test\\BotTelegram\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {
+    "C:\\Projects\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\loren\\source\\test\\BotTelegram\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
+        "projectUniqueName": "C:\\Projects\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
         "projectName": "personal-telegram-bot",
-        "projectPath": "C:\\Users\\loren\\source\\test\\BotTelegram\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
+        "projectPath": "C:\\Projects\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
         "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\loren\\source\\test\\BotTelegram\\personal-telegram-bot\\personal-telegram-bot\\obj\\",
+        "outputPath": "C:\\Projects\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
