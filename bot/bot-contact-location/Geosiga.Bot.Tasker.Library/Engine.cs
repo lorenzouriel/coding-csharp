@@ -5,13 +5,24 @@ using Telegram.Bot.Args;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
 using System.Resources;
+using Geosiga.Bot.Tasker.Library.Models;
 
 namespace Geosiga.Bot.Tasker.Library
 {
+    /// <summary>
+    /// Class that represents the Telegram bot engine.
+    /// </summary>
     public static class Engine
     {
+        /// <summary>
+        /// TelegramBot client used to communicate with the Telegram API.
+        /// </summary>
         public static TelegramBotClient Bot { get; private set; }
 
+        /// <summary>
+        /// Method to start bot execution.
+        /// </summary>
+        /// <param name="token">Bot Access Token.</param>
         public static void Start(string token)
         {
             Bot = new TelegramBotClient(token);
@@ -21,10 +32,13 @@ namespace Geosiga.Bot.Tasker.Library
 
             Bot.StartReceiving();
 
-            Console.WriteLine($"Start listening for bot with token {token}");
+            //Console.WriteLine($"Iniciando a escuta para o bot com token {token}");
             Console.ReadLine();
         }
 
+        /// <summary>
+        /// Event handler for new messages received by the bot.
+        /// </summary>
         private static async void Bot_OnMessage(object sender, MessageEventArgs e)
         {
             var message = e.Message;
@@ -50,8 +64,12 @@ namespace Geosiga.Bot.Tasker.Library
             await Usage(chatId);
         }
 
+        /// <summary>
+        /// Method for requesting user contact.
+        /// </summary>
         private static async Task RequestContact(long chatId)
         {
+            // Create a response keyboard with a contact request button.
             var requestReplyKeyboard = new ReplyKeyboardMarkup(new[]
             {
                 new[]
@@ -70,9 +88,11 @@ namespace Geosiga.Bot.Tasker.Library
                 replyMarkup: requestReplyKeyboard
             );
 
+            // Defines an event handler for receiving the contact
             Bot.OnMessage -= ContactHandler;
             Bot.OnMessage += ContactHandler;
 
+            // Event handler to process incoming contact
             async void ContactHandler(object sender, MessageEventArgs e)
             {
                 var userMessage = e.Message;
@@ -82,18 +102,29 @@ namespace Geosiga.Bot.Tasker.Library
                 var firstName = userMessage.Contact.FirstName;
                 var phoneNumber = userMessage.Contact.PhoneNumber;
 
+                // Creates a new chat object with worker information
                 var chat = new Chat
                 {
-                    HasWorkerInfo = true,
-                    WorkerName = firstName,
-                    WorkerPhone = phoneNumber
+                    Worker = new Worker
+                    {
+                        HasWorkerInfo = true,
+                        WorkerName = firstName,
+                        WorkerPhone = phoneNumber
+                    }
                 };
 
+                // Sends welcome message and requests location
                 await WelcomeMessage(chatId, firstName);
                 await RequestLocation(chatId, chat);
+
+                // Remove event handler after use
+                Bot.OnMessage -= ContactHandler;
             }
         }
 
+        /// <summary>
+        /// Method for sending welcome message.
+        /// </summary>
         private static async Task WelcomeMessage(long chatId, string taskerName)
         {
             string message = string.Format(Resources.WelcomeMessage, taskerName);
@@ -103,8 +134,12 @@ namespace Geosiga.Bot.Tasker.Library
             );
         }
 
+        /// <summary>
+        /// Method for requesting the user's location.
+        /// </summary>
         private static async Task RequestLocation(long chatId, Chat chat)
         {
+            // Create a response keyboard with location request button
             var requestReplyKeyboard = new ReplyKeyboardMarkup(new[]
             {
                 new[]
@@ -123,9 +158,11 @@ namespace Geosiga.Bot.Tasker.Library
                 replyMarkup: requestReplyKeyboard
             );
 
+            // Defines an event handler for receiving the location
             Bot.OnMessage -= LocationHandler;
             Bot.OnMessage += LocationHandler;
 
+            // Event handler to process the received location
             async void LocationHandler(object sender, MessageEventArgs e)
             {
                 var userMessage = e.Message;
@@ -135,18 +172,22 @@ namespace Geosiga.Bot.Tasker.Library
                 var latitude = userMessage.Location.Latitude;
                 var longitude = userMessage.Location.Longitude;
 
-                chat.WorkerLatitude = latitude;
-                chat.WorkerLongitude = longitude;
+                chat.Worker.WorkerLatitude = latitude;
+                chat.Worker.WorkerLongitude = longitude;
 
                 await Bot.SendTextMessageAsync(
                     chatId: chatId,
                     text: $"Localização salva:\nLatitude: {latitude}\nLongitude: {longitude}"
                 );
 
-                // Bot.StopReceiving();
+                // Remove o manipulador de eventos após o uso
+                Bot.OnMessage -= LocationHandler;
             }
         }
 
+        /// <summary>
+        /// Method to restart the conversation with the user.
+        /// </summary>
         private static async Task RestartChat(long chatId)
         {
             await Bot.SendTextMessageAsync(
@@ -155,14 +196,20 @@ namespace Geosiga.Bot.Tasker.Library
             );
         }
 
+        /// <summary>
+        /// Method for sending initial use message and capturing out-of-scope messages.
+        /// </summary>
         private static async Task Usage(long chatId)
         {
             await Bot.SendTextMessageAsync(
                 chatId: chatId,
-                text: Resources.StartMessage
+                text: Resources.ErrorMessage //StartMessage
             );
         }
 
+        /// <summary>
+        /// Event handler to handle receive errors.
+        /// </summary>
         private static void Bot_OnReceiveError(object sender, ReceiveErrorEventArgs e)
         {
             Console.WriteLine(Resources.ErrorMessage);

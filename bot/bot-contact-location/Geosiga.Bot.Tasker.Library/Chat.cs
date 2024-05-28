@@ -1,38 +1,35 @@
-﻿namespace Geosiga.Bot.Tasker.Library
-{
-    public class Service
-    {
-        public int Id { get; set; }
-        public string Order { get; set; }
-        public string Type { get; set; }
+﻿using Geosiga.Bot.Tasker.Library.Models;
 
-    }
+namespace Geosiga.Bot.Tasker.Library
+{
+    /// <summary>
+    /// Represents a chat session within the tasker library.
+    /// </summary>
     public class Chat
     {
         /// <summary>
-        /// Active Order
+        /// The active service order associated with the chat.
         /// </summary>
         public Service Service { get; set; }
-        public int AssetId { get; set; }
-        public string AssetName { get; set; }
 
+        /// <summary>
+        /// The asset related to the service order.
+        /// </summary>
+        public Asset Asset { get; set; }
 
-        public long DeviceId { get; set; }
-        public string DeviceName { get; set; }
-        public string DeviceImei { get; set; }
-        public string DevicePhone { get; set; }
-        public string DeviceLocation { get; set; }
+        /// <summary>
+        /// The device(s) associated with the service.
+        /// </summary>
+        public Device Device { get; set; }
 
+        /// <summary>
+        /// The worker responsible for interacting with the chat.
+        /// </summary>
+        public Worker Worker { get; set; }
 
-        public bool HasWorkerInfo { get; set; }
-        public string WorkerName { get; set; }
-        public string WorkerPhone { get; set; }
-        public float WorkerLatitude { get; set; }
-        public float WorkerLongitude { get; set; }
-
-
-        public string Reason { get; set; }
-        public bool Unproductive { get; set; }
+        /// <summary>
+        /// The reason for the service.
+        /// </summary>
+        public Reason Reason { get; set; }
     }
 }
- 
