@@ -114,13 +114,13 @@ namespace TesteBotTelegram.Service
             {
                 new []
                 {
-                    InlineKeyboardButton.WithCallbackData("1.1", "11"),
-                    InlineKeyboardButton.WithCallbackData("1.2", "12"),
+                    InlineKeyboardButton.WithCallbackData("OS", "OS"),
+                    InlineKeyboardButton.WithCallbackData("Foto do Serviço", "Foto do Serviço"),
                 },
                 new []
                 {
-                    InlineKeyboardButton.WithCallbackData("2.1", "21"),
-                    InlineKeyboardButton.WithCallbackData("2.2", "22"),
+                    InlineKeyboardButton.WithCallbackData("Aparelho Retirado", "Aparelho Retirado"),
+                    InlineKeyboardButton.WithCallbackData("Aparelho Instalado", "Aparelho Instalado"),
                 }
             });
             await botClient.SendTextMessageAsync(
@@ -134,8 +134,8 @@ namespace TesteBotTelegram.Service
         {
             var replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
             {
-                new KeyboardButton[] { "1.1", "1.2" },
-                new KeyboardButton[] { "2.1", "2.2" },
+                new KeyboardButton[] { "OS", "Foto do Serviço" },
+                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
             })
             {
                 ResizeKeyboard = true
@@ -143,24 +143,34 @@ namespace TesteBotTelegram.Service
 
             await botClient.SendTextMessageAsync(
                 chatId: message.Chat.Id,
-                text: "Choose",
+                text: "Escolha o tipo de foto que será enviado:",
                 replyMarkup: replyKeyboardMarkup
             );
         }
+//        static async Task SendDocument(Message message)
+//        {
+//            var replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
+//{
+//                new KeyboardButton[] { "Ordem de Serviço Assinada", "Foto do Serviço" },
+//            })
+//            {
+//                ResizeKeyboard = true
+//            };
 
-        //private static async Task SendDocument(Message message)
-        //{
-        //    await botClient.SendChatActionAsync(message.Chat.Id, ChatAction.UploadPhoto);
+//            await botClient.SendChatActionAsync(message.Chat.Id, ChatAction.UploadPhoto);
 
-        //    const string filePath = @"C:\Users\eriks\Desktop\erik.jpg";
-        //    using var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-        //    var fileName = Path.GetFileName(filePath);
-        //    await botClient.SendPhotoAsync(
-        //        chatId: message.Chat.Id,
-        //        photo: new Telegram.Bot.Types.InputFiles.InputOnlineFile(fileStream, fileName),
-        //        caption: "Bonitão você hein!"
-        //    );
-        //}
+//            const string filePath = @"C:\Users\eriks\Desktop\erik.jpg";
+//            using var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
+
+//            var fileName = filePath.Split(Path.DirectorySeparatorChar).Last();
+
+//            await botClient.SendPhotoAsync(
+//                chatId: message.Chat.Id,
+//                photo: new InputOnlineFile(fileStream, fileName),
+//                replyMarkup: replyKeyboardMarkup
+
+//            );
+//        }
 
         private static async Task RequestContactAndLocation(Message message)
         {
@@ -171,7 +181,7 @@ namespace TesteBotTelegram.Service
             });
             await botClient.SendTextMessageAsync(
                 chatId: message.Chat.Id,
-                text: "Who or Where are you?",
+                text: "Quem é você e onde você está?",
                 replyMarkup: requestReplyKeyboard
             );
         }
@@ -180,14 +190,14 @@ namespace TesteBotTelegram.Service
         {
             await botClient.SendContactAsync(
                 chatId: message.Chat.Id,
-                phoneNumber: "+1234567890",
-                firstName: "Han",
+                phoneNumber: "+5511947788209",
+                firstName: "Lorenzo Uriel",
                 vCard: "BEGIN:VCARD\n" +
                        "VERSION:3.0\n" +
-                       "N:Solo;Han\n" +
+                       "N:Uriel;Lorenzo\n" +
                        "ORG:Scruffy-looking nerf herder\n" +
-                       "TEL;TYPE=voice,work,pref:+1234567890\n" +
-                       "EMAIL:hansolo@mfalcon.com\n" +
+                       "TEL;TYPE=voice,work,pref:+11947788209\n" +
+                       "EMAIL:lorenzouriel394@gmail.com\n" +
                        "END:VCARD"
             );
         }
@@ -196,9 +206,9 @@ namespace TesteBotTelegram.Service
         {
             await botClient.SendContactAsync(
                 chatId: message.Chat.Id,
-                phoneNumber: "+1234567890",
-                firstName: "Han",
-                lastName: "Solo"
+                phoneNumber: "+5511947788209",
+                firstName: "Lorenzo",
+                lastName: "Uriel"
             );
         }
 
@@ -206,10 +216,10 @@ namespace TesteBotTelegram.Service
         {
             await botClient.SendVenueAsync(
                 chatId: message.Chat.Id,
-                latitude: 50.0840172f,
-                longitude: 14.418288f,
-                title: "Man Hanging out",
-                address: "Husova, 110 00 Staré Město, Czechia"
+                latitude: -23.723301f,
+                longitude: -46.584602f,
+                title: "Rua Alexandre Bonício",
+                address: "Rua Alexandre Bonício, 609 - Alves Dias"
             );
         }
 
@@ -217,8 +227,8 @@ namespace TesteBotTelegram.Service
         {
             await botClient.SendLocationAsync(
                 chatId: message.Chat.Id,
-                latitude: 50.0840172f,
-                longitude: 14.418288f
+                latitude: -23.723301f,
+                longitude: -46.584602f
             );
         }
 

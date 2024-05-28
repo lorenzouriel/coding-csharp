@@ -1,0 +1,149 @@
+// Importando as bibliotecas necessárias do Telegram.Bot
+using Telegram.Bot;
+using Telegram.Bot.Polling;
+using Telegram.Bot.Types;
+using Telegram.Bot.Types.Enums;
+using Telegram.Bot.Types.ReplyMarkups;
+
+// Criando uma instância do bot Telegram com o token de acesso
+var botClient = new TelegramBotClient("7036690871:AAGLjF9FEkvslxqHbNX3mMDLlVSQ7iFYf4Q");
+
+// Criando um objeto para controle de cancelamento (cancelamento de operações assíncronas)
+var cancellationToken = new CancellationTokenSource();
+
+// Iniciando o processo de recebimento de mensagens
+botClient.StartReceiving(
+    updateHandler: UpdateHandlerAsync,  // Função chamada quando uma nova mensagem é recebida
+    pollingErrorHandler: PollingHandlerAsync,  // Função chamada em caso de erro durante a recepção
+    receiverOptions: new ReceiverOptions
+    {
+        AllowedUpdates = Array.Empty<UpdateType>()  // Configuração para tipos específicos de atualizações permitidas
+    },
+    cancellationToken: cancellationToken.Token  // Token de cancelamento para interromper o processo quando necessário
+);
+
+// Função chamada em caso de erro durante a recepção de mensagens
+Task PollingHandlerAsync(ITelegramBotClient botClient, Exception exception, CancellationToken cts)
+{
+    Console.WriteLine(exception.Message);  // Imprime a mensagem de erro no console
+    return Task.CompletedTask;  // Retorna uma tarefa assíncrona completada
+}
+
+// Função chamada quando uma nova mensagem é recebida
+async Task UpdateHandlerAsync(ITelegramBotClient botClient, Update update, CancellationToken cts)
+{
+    // Verifica se a mensagem é válida
+    if (update.Message is not { } message)
+        return;
+
+    // Verifica se a mensagem contém texto
+    if (message.Text is not { } messageText)
+        return;
+
+    // Obtém o ID do chat (local onde a mensagem foi enviada)
+    var chatId = message.Chat.Id;
+
+    // Imprime no console a mensagem recebida
+    Console.WriteLine($"Mensagem Recebida: {messageText}");
+
+    // Processa a mensagem recebida
+    switch (messageText.ToLower())
+    {
+        case "/start":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Olá! Eu sou o seu bot. Como posso te ajudar hoje?\n\nDigite /help para ver os comandos disponíveis.",
+                cancellationToken: cts
+            );
+            break;
+        case "/help":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Aqui estão os comandos disponíveis:\n" +
+                      "/start - Inicia a conversa com o bot\n" +
+                      "/about - Informações sobre o bot\n" +
+                      "/contact - Informações de contato\n" +
+                      "/menu - Mostrar opções interativas",
+                cancellationToken: cts
+            );
+            break;
+        case "/about":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Eu sou um bot criado para ajudá-lo com várias tarefas. Estou em constante evolução!",
+                cancellationToken: cts
+            );
+            break;
+        case "/contact":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Você pode entrar em contato conosco pelo email: contato@example.com",
+                cancellationToken: cts
+            );
+            break;
+        case "/menu":
+            var replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
+            {
+                new KeyboardButton[] { "Opção 1", "Opção 2" },
+                new KeyboardButton[] { "Opção 3", "Opção 4" },
+            })
+            {
+                ResizeKeyboard = true
+            };
+
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Escolha uma opção:",
+                replyMarkup: replyKeyboardMarkup,
+                cancellationToken: cts
+            );
+            break;
+        case "opção 1":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Você escolheu a Opção 1!",
+                cancellationToken: cts
+            );
+            break;
+        case "opção 2":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Você escolheu a Opção 2!",
+                cancellationToken: cts
+            );
+            break;
+        case "opção 3":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Você escolheu a Opção 3!",
+                cancellationToken: cts
+            );
+            break;
+        case "opção 4":
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Você escolheu a Opção 4!",
+                cancellationToken: cts
+            );
+            break;
+        default:
+            await botClient.SendTextMessageAsync(
+                chatId: chatId,
+                text: "Desculpe, eu não entendi esse comando. Digite /help para ver os comandos disponíveis.",
+                cancellationToken: cts
+            );
+            break;
+    }
+}
+
+// Obtém informações sobre o próprio bot
+var me = await botClient.GetMeAsync(cancellationToken.Token);
+
+// Imprime no console o nome de usuário do bot
+Console.WriteLine($"Escutando {me.Username}");
+
+// Aguarda a entrada do usuário no console antes de encerrar o bot
+Console.ReadLine();
+
+// Cancela o token de cancelamento, encerrando o processo de recepção de mensagens
+cancellationToken.Cancel();
