@@ -18,13 +18,13 @@ I will add all my knowledge with the language and technologies, so we can always
 ## 📚 Folders
 | Folder | Objective |
 |---|---|
-| [topics](README.md) | Talking about basic topics in C# |
-| [00-basic](README.md) | Talking about basic topics in C# |
-| [01-intermediate](fruit_juice/README.md) | Talking about intermediate topics in C# |
-| [02-advanced](ETL/README.md)| Talking about advanced topics in C# |
-| [bot](ETL/README.md)| An introduction to Bots using C# and .NET Core |
-| [challenges](ETL/README.md)| All the challenges and exercises that I faced in my learning |
-| [DLL](ETL/README.md)| An introduction to DLL and how to create and test DLL files |
+| [topics](/topics/README.md) | Talking about basic topics in C# |
+| [00-basic](/topics/README.md) | Talking about basic topics in C# |
+| [01-intermediate](/topics/README.md) | Talking about intermediate topics in C# |
+| [02-advanced](/topics/README.md) | Talking about advanced topics in C# |
+| [bot](/bot/README.md)| An introduction to Bots using C# and .NET Core |
+| [challenges](/challenges/README.md)| All the challenges and exercises that I faced in my learning |
+| [DLL](/dll/README.md)| An introduction to DLL and how to create and test DLL files |
 
 - All the folders and solutions have one README.md with an extensive documentation
 
