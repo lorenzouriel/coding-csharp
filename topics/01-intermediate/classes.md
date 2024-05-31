@@ -1,6 +1,4 @@
-# Intermediário sobre Classes
-
-## Classes
+# Classes
 - Tipos estruturados que podem conter **atributos (dados/campos)** e **métodos (funções/operações).**
 - Podem fornecer recursos adicionais como **construtores**, **sobrecarga**, **encapsulamento**, **herança** e **polimorfismo**.
 - Podem representar **entidades** (como Produto, Cliente, Triângulo) ou **serviços** (como ProdutoService, ClienteService, EmailService, StorageService).
@@ -10,7 +8,7 @@
 São `public`, `private`, `protected`, entre outros, para controlar o acesso aos membros de uma classe.
 
 **`public`:** 
--**Acesso:** Os membros públicos são acessíveis de qualquer lugar do código, seja dentro da própria classe, em outras classes do mesmo projeto ou em classes de projetos externos.
+- **Acesso:** Os membros públicos são acessíveis de qualquer lugar do código, seja dentro da própria classe, em outras classes do mesmo projeto ou em classes de projetos externos.
 - **Uso:** Use `public` quando desejar que o membro seja acessível em toda a aplicação, independentemente de onde esteja sendo utilizado.
 
 **`private`:**
@@ -71,7 +69,7 @@ public class Calculadora
 ```
 
 ### Construtores (Constructors)
-étodos especiais chamados quando um objeto é criado.
+Métodos especiais chamados quando um objeto é criado.
 
 Inicializam os campos ou propriedades da classe e permitem a inicialização dos membros da classe no momento da criação do objeto.
 ```csharp
@@ -252,7 +250,7 @@ public class Gato : Animal
 ### Sobreposição (Override)
 Permite que uma classe derivada forneça uma implementação específica para um método definido em sua classe base.
 
-Usa as palavras-chave que são `virtual`, `override`, e `base`.
+Usa as palavras-chave que são `virtual`, `override` e `base`.
 
 **`virtual`:**
 - É usado na declaração de um método na classe base para indicar que ele pode ser sobreposto em classes derivadas.
@@ -354,3 +352,136 @@ public class Pessoa
 Pessoa pessoa2 = new Pessoa("Bob", 25);
 ```
 
+### Classes e Métodos Selados
+Em C#, as palavras-chave `sealed` podem ser aplicadas a classes e métodos para restringir a herança ou sobreposição. 
+
+#### Classes Seladas (sealed class):
+- Quando uma classe é marcada como sealed, ela não pode ser herdada. Ou seja, **você não pode criar subclasses dessa classe.**
+```csharp
+sealed class ClasseSelada {
+    // Conteúdo da classe
+}
+// A tentativa de herdar de ClasseSelada resultará em erro de compilação.
+```
+
+**Uso comum:**
+- Classes seladas são úteis quando não faz sentido ter subclasses, ou por razões de segurança ou implementação específica.
+
+#### Métodos Selados (sealed override):
+- Quando um método em uma classe base é marcado como `virtual` e um método na classe derivada é marcado como `sealed override`, isso indica que a classe derivada está selando a implementação do método na classe base.
+```csharp
+class Animal {
+    public virtual void EmitirSom() {
+        Console.WriteLine("Som genérico de animal.");
+    }
+}
+class Cachorro : Animal {
+    public sealed override void EmitirSom() {
+        Console.WriteLine("Latindo...");
+    }
+}
+class GoldenRetriever : Cachorro {
+    // Não é permitido sobrepor o método EmitirSom aqui, pois está selado em Cachorro.
+}
+```
+
+**Uso comum:**
+- Isso é útil quando você deseja permitir que uma classe base forneça uma implementação padrão, mas quer evitar que classes derivadas modifiquem essa implementação.
+
+### Classes Abstratas
+Classes Abstratas em C# são **classes que não podem ser instanciadas diretamente.** Elas são **usadas como modelos para outras classes.** A principal característica que as torna abstratas é a presença de **pelo menos um método abstrato.**
+```csharp
+abstract class Animal {
+    public abstract void EmitirSom();
+}
+```
+
+**Características Principais:**
+
+- **Métodos abstratos** são declarados na classe abstrata, mas não têm implementação.
+```csharp
+abstract class Animal {
+    public abstract void EmitirSom();
+}
+```
+
+- **Herança** - classes abstratas podem ser herdadas por outras classes.
+```csharp
+class Cachorro : Animal {
+    public override void EmitirSom() {
+        Console.WriteLine("Latindo...");
+    }
+}
+```
+- **Classes derivadas** devem fornecer implementações para todos os métodos abstratos da classe base.
+```csharp
+class Gato : Animal {
+    public override void EmitirSom() {
+        Console.WriteLine("Miando...");
+    }
+}
+```
+
+- Você **não pode criar uma instância direta de uma classe abstrata.**
+```csharp
+// Isso resultaria em um erro de compilação
+Animal animal = new Animal();
+```
+
+Em vez disso, **você cria instâncias de classes derivadas.**
+```csharp
+Animal cachorro = new Cachorro();
+```
+
+**Uso Comum:**
+- As classes abstratas são frequentemente usadas quando você tem uma ideia geral de uma classe, mas não pode fornecer uma implementação completa para ela.
+- Elas são úteis quando você deseja garantir que as classes derivadas forneçam uma implementação específica para determinados métodos, mas também podem conter implementações padrão que são compartilhadas entre as classes derivadas.
+
+Exemplo Completo:
+```csharp
+using System;
+abstract class Animal {
+    public abstract void EmitirSom();
+}
+
+class Cachorro : Animal {
+    public override void EmitirSom() {
+        Console.WriteLine("Latindo...");
+    }
+}
+
+class Gato : Animal {
+    public override void EmitirSom() {
+        Console.WriteLine("Miando...");
+    }
+}
+
+class Program {
+    static void Main() {
+        Animal cachorro = new Cachorro();
+        Animal gato = new Gato();
+        cachorro.EmitirSom(); // Saída: Latindo...
+        gato.EmitirSom();     // Saída: Miando...
+    }
+}
+```
+- Neste exemplo, **Animal é uma classe abstrata com um método abstrato EmitirSom.** As classes Cachorro e Gato **herdam de Animal e fornecem implementações específicas para o método abstrato.**
+
+### Palavra `This`
+A palavra-chave this em C# é **usada para referenciar o objeto atual em que o código está sendo executado.**
+
+Ela **representa uma referência para a instância da classe à qual o método pertence ou na qual o campo ou propriedade está sendo usado.**
+```csharp
+public class MinhaClasse
+{
+    private int x;
+    public MinhaClasse(int x)
+    {
+        this.x = x; // O 'this' é usado para referenciar o campo 'x' da classe
+    }
+    public void SetX(int x)
+    {
+        this.x = x; // O 'this' é usado para referenciar o campo 'x' da classe
+    }
+}
+```
