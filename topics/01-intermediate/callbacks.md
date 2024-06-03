@@ -1,4 +1,4 @@
-# Callbacks, Delegates e Events
+# Callbacks com Delegates, Lambdas e Events
 Em C#, **callbacks** são uma forma de **passar uma função como parâmetro para outra função**, *permitindo que essa função seja chamada de volta (ou invocada) em um ponto específico durante a execução do código.*
 
 Existem várias maneiras de implementar callbacks em C#, incluindo o uso de **delegados, lambdas, eventos e até interfaces.** Vou mostrar alguns exemplos de como fazer isso.
