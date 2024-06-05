@@ -7,33 +7,30 @@
     </p>
 </div>
 
-## 👽 Introduction to Coding C#
+## 👽 Introdução ao Coding C#
+Este é um guia de código aberto para aprendizado de C#, minha ideia com este repositório é espalhar o aprendizado para a comunidade.
 
-This is an open-source guide to C# learning, my ideia with this repository is to spread learning for the community.
+Falarei de tópicos avançados até tópicos mais básicos. Depois abordarei vários outros tópicos relacionados à linguagem e seus SDKs.
 
-I will talk about advanced topics to more basic topics. Then I will cover several other topics related to the language and its SDKs.
+Agregarei todo meu conhecimento com a linguagem e tecnologias, para que possamos sempre avançar juntos!
 
-I will add all my knowledge with the language and technologies, so we can always move forward together!
-
-## 📚 Folders
-| Folder | Objective |
+## 📚 Pastas
+| Pasta | Objetivo |
 |---|---|
-| [topics](/topics/README.md) | Talking about basic topics in C# |
-| [bot](/bot/README.md)| An introduction to Bots using C# and .NET Core |
-| [challenges](/challenges/README.md)| All the challenges and exercises that I faced in my learning |
-| [DLL](/dll/README.md)| An introduction to DLL and how to create and test DLL files |
-
-- All the folders and solutions have one README.md with an extensive documentation
+| [topics](/topics/README.md) | Falando sobre diversos tópicos em C# |
+| [bot](/bot/README.md)| Uma introdução aos bots usando C# e .NET Core |
+| [challenges](/challenges/README.md)| Todos os desafios e exercícios que enfrentei no meu aprendizado |
+| [DLL](/dll/README.md)| Uma introdução ao DLL e como criar e testar arquivos DLL |
 
 
-## 🌊 Clone or Fork Repository
+## 🌊 Clone o Repositório
 ```bash
 git clone https://github.com/lorenzouriel/coding-csharp.git
 cd coding-csharp
 ```
 
 
-## 🏅 Give me a Star
-My idea is to spread learning, if you want to sponsor me or have any doubts, just get in contact: 
+## 🏅 Me dê uma Estrela
+Minha ideia é espalhar o aprendizado, caso tenha alguma dúvida é só entrar em contato:: 
 - [E-mail](lorenzouriel@gmail.com)
-- [Social Medias](https://linktr.ee/lorenzo_uriel)
+- [Redes Sociais](https://linktr.ee/lorenzo_uriel)
