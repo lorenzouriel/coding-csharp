@@ -3,7 +3,7 @@ Eles permitem que você forneça descrições detalhadas de classes, métodos, p
 
 Aqui estão alguns comandos XML comuns e exemplos de como usá-los:
 
-### `<summary>``
+### `<summary>`
 Este comando é usado para fornecer uma descrição resumida de um membro (classe, método, propriedade, etc.).
 
 **Exemplo:**
