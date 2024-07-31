@@ -158,3 +158,14 @@ public enum OrderStatus
     Cancelled
 }
 ```
+
+### Outras Dicas
+- **Cuidado com Case Sensitive:** Não dependa da sensibilidade de maiúsculas e minúsculas do C# para diferenciar nomes de variáveis, pois isso pode causar confusão e erros no código.
+
+- **Consistência nos Nomes:** Use convenções de nomenclatura consistentes para operações semelhantes (por exemplo, sempre use "open" em vez de misturar "open" e "load") para manter a clareza do código.
+
+- **Evite Prefixos e Sufixos:** Não adicione prefixos ou sufixos desnecessários a propriedades ou métodos, pois isso dificulta a leitura e compreensão do código.
+
+- **Nomes Descritivos e Significativos:** Use nomes claros e descritivos, sem abreviações, termos criptográficos ou nomes engraçados, para melhorar a legibilidade do código.
+
+- **Termo Único para Conceito Único:** Use um único termo de forma consistente para um único conceito (por exemplo, não use "Instituto" e "Universidade" de forma intercambiável) para evitar confusões.
