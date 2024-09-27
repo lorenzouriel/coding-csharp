@@ -18,7 +18,7 @@ namespace TesteBotTelegram.Service
 
     public class TelegramService : ITelegramService
     {
-        private readonly string _token = "6261428381:AAEMLcnwz-ZoXDk1cAS7qbtTZXiRef4Rz1E";
+        private readonly string _token = "";
         static ITelegramBotClient botClient = null!;
 
         public async Task BotHandler()
@@ -135,23 +135,7 @@ namespace TesteBotTelegram.Service
             var replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
             {
                 new KeyboardButton[] { "OS", "Foto do Serviço" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" },
+                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" }
             })
             {
                 ResizeKeyboard = true

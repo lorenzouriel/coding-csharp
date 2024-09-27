@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LS4AUTVs/SFNrGd+sa+cJjJNkVlJDjmPBXrw+n9/PDUZfzUsDLsgcLfoIhII8S+qVk2IFTbLZFWqAjjqCfBdww==",
+  "dgSpecHash": "1EHalqGOSo0=",
   "success": true,
-  "projectFilePath": "C:\\Projects\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
+  "projectFilePath": "c:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\loren\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\loren\\.nuget\\packages\\telegram.bot\\19.0.0\\telegram.bot.19.0.0.nupkg.sha512"

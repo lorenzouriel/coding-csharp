@@ -1,0 +1,12 @@
+Publicar aquivo: dotnet publish -c Release
+Criar Dockerfile
+Buildar imagem: docker build -t personal-bot -f Dockerfile .
+Criar container: docker create --name bot personal-bot
+Iniciar container: docker start bot
+Parar: docker start bot
+Attach: docker attach --sig-proxy=false
+
+Rodar sem Docker:
+1. dotnet publish -c Release --self-contained true -o out
+2. cd out
+3. personal-telegram-bot.exe
