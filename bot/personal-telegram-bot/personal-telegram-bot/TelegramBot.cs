@@ -57,9 +57,6 @@ namespace TesteBotTelegram.Service
                     case "/keyboard":
                         await SendReplyKeyboard(message);
                         break;
-                    //case "/photo":
-                    //    await SendDocument(message);
-                    //    break;
                     case "/request":
                         await RequestContactAndLocation(message);
                         break;
@@ -114,18 +111,18 @@ namespace TesteBotTelegram.Service
             {
                 new []
                 {
-                    InlineKeyboardButton.WithCallbackData("OS", "OS"),
-                    InlineKeyboardButton.WithCallbackData("Foto do Serviço", "Foto do Serviço"),
+                    InlineKeyboardButton.WithCallbackData("Opção 1", "Opção 1"),
+                    InlineKeyboardButton.WithCallbackData("Opção 2", "Opção 2"),
                 },
                 new []
                 {
-                    InlineKeyboardButton.WithCallbackData("Aparelho Retirado", "Aparelho Retirado"),
-                    InlineKeyboardButton.WithCallbackData("Aparelho Instalado", "Aparelho Instalado"),
+                    InlineKeyboardButton.WithCallbackData("Opção 3", "Opção 3"),
+                    InlineKeyboardButton.WithCallbackData("Opção 4", "Opção 4"),
                 }
             });
             await botClient.SendTextMessageAsync(
                 chatId: message.Chat.Id,
-                text: "Choose",
+                text: "ChoOpção 1e",
                 replyMarkup: inlineKeyboard
             );
         }
@@ -134,8 +131,8 @@ namespace TesteBotTelegram.Service
         {
             var replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
             {
-                new KeyboardButton[] { "OS", "Foto do Serviço" },
-                new KeyboardButton[] { "Aparelho Retirado", "Aparelho Instalado" }
+                new KeyboardButton[] { "Opção 1", "Opção 2" },
+                new KeyboardButton[] { "Opção 3", "Opção 4" }
             })
             {
                 ResizeKeyboard = true
@@ -147,30 +144,6 @@ namespace TesteBotTelegram.Service
                 replyMarkup: replyKeyboardMarkup
             );
         }
-//        static async Task SendDocument(Message message)
-//        {
-//            var replyKeyboardMarkup = new ReplyKeyboardMarkup(new[]
-//{
-//                new KeyboardButton[] { "Ordem de Serviço Assinada", "Foto do Serviço" },
-//            })
-//            {
-//                ResizeKeyboard = true
-//            };
-
-//            await botClient.SendChatActionAsync(message.Chat.Id, ChatAction.UploadPhoto);
-
-//            const string filePath = @"C:\Users\eriks\Desktop\erik.jpg";
-//            using var fileStream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.Read);
-
-//            var fileName = filePath.Split(Path.DirectorySeparatorChar).Last();
-
-//            await botClient.SendPhotoAsync(
-//                chatId: message.Chat.Id,
-//                photo: new InputOnlineFile(fileStream, fileName),
-//                replyMarkup: replyKeyboardMarkup
-
-//            );
-//        }
 
         private static async Task RequestContactAndLocation(Message message)
         {
@@ -190,14 +163,14 @@ namespace TesteBotTelegram.Service
         {
             await botClient.SendContactAsync(
                 chatId: message.Chat.Id,
-                phoneNumber: "+5511947788209",
+                phoneNumber: "+55119999999999",
                 firstName: "Lorenzo Uriel",
                 vCard: "BEGIN:VCARD\n" +
                        "VERSION:3.0\n" +
                        "N:Uriel;Lorenzo\n" +
                        "ORG:Scruffy-looking nerf herder\n" +
-                       "TEL;TYPE=voice,work,pref:+11947788209\n" +
-                       "EMAIL:lorenzouriel394@gmail.com\n" +
+                       "TEL;TYPE=voice,work,pref:+11999999999\n" +
+                       "EMAIL:seuemail@gmail.com\n" +
                        "END:VCARD"
             );
         }
@@ -206,7 +179,7 @@ namespace TesteBotTelegram.Service
         {
             await botClient.SendContactAsync(
                 chatId: message.Chat.Id,
-                phoneNumber: "+5511947788209",
+                phoneNumber: "+5511999999999",
                 firstName: "Lorenzo",
                 lastName: "Uriel"
             );
@@ -218,8 +191,8 @@ namespace TesteBotTelegram.Service
                 chatId: message.Chat.Id,
                 latitude: -23.723301f,
                 longitude: -46.584602f,
-                title: "Rua Alexandre Bonício",
-                address: "Rua Alexandre Bonício, 609 - Alves Dias"
+                title: "Rua Doida Cara",
+                address: "Rua Doida Cara, 609 - Dias Alves"
             );
         }
 
@@ -243,10 +216,9 @@ namespace TesteBotTelegram.Service
 
         private static async Task Usage(Message message)
         {
-            const string usage = "Olá, segue nossas opções:\n" +
-                                 "/inline   - mostra ooções na linha\n" +
-                                 "/keyboard - mostra um teclado personalizado com opções\n" +
-                                 "/photo    - envia uma foto\n" +
+            const string usage = "Olá, segue nOpção 1sas opções:\n" +
+                                 "/inline   - mOpção 1tra ooções na linha\n" +
+                                 "/keyboard - mOpção 1tra um teclado personalizado com opções\n" +
                                  "/request  - pede pra escolher entre enviar o contato ou a localização\n" +
                                  "/contactFull - envia um contato estático com card\n" +
                                  "/contactSimple - envia um contato estático simples\n" +
