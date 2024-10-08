@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {}
+    "C:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {}
   },
   "projects": {
-    "c:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {
+    "C:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
+        "projectUniqueName": "C:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
         "projectName": "personal-telegram-bot",
-        "projectPath": "c:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
+        "projectPath": "C:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\personal-telegram-bot.csproj",
         "packagesPath": "C:\\Users\\loren\\.nuget\\packages\\",
-        "outputPath": "c:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\obj\\",
+        "outputPath": "C:\\WAVES\\portfolio\\coding-csharp\\bot\\personal-telegram-bot\\personal-telegram-bot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\loren\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -62,12 +62,31 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[7.0.20, 7.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[7.0.20, 7.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }

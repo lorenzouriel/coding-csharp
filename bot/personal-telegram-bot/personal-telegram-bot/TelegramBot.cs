@@ -18,7 +18,7 @@ namespace TesteBotTelegram.Service
 
     public class TelegramService : ITelegramService
     {
-        private readonly string _token = "";
+        private readonly string _token = "6261428381:AAEMLcnwz-ZoXDk1cAS7qbtTZXiRef4Rz1E";
         static ITelegramBotClient botClient = null!;
 
         public async Task BotHandler()
