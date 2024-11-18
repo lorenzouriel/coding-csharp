@@ -61,24 +61,6 @@ else
 }
 ```
 
-**Exemplo com Operadores Lógicos:**
-```csharp
-int numero = 25;
-
-if (numero > 0 && numero <= 10) 
-{
-    Console.WriteLine("O número está entre 1 e 10.");
-} 
-else if (numero > 10 && numero <= 20) 
-{
-    Console.WriteLine("O número está entre 11 e 20.");
-} 
-else 
-{
-    Console.WriteLine("O número é maior que 20 ou é negativo.");
-}
-```
-
 **Aninhamento de Estruturas Condicionais:**
 Você pode aninhar estruturas condicionais dentro de outras estruturas condicionais
 ```csharp
@@ -100,4 +82,17 @@ else
 {
     Console.WriteLine("a não é positivo.");
 }
+```
+
+**Expressão condicional ternária:**
+Estrutura opcional ao `if-else` quando se deseja decidir um VALOR com base em uma condição.
+
+```csharp
+// Sintaxe
+variavel = (condicao) ? valor_se_verdadeiro : valor_se_falso;
+
+// Exemplo
+int idade = 20;
+string mensagem = (idade >= 18) ? "Maior de idade" : "Menor de idade";
+Console.WriteLine(mensagem); // Saída: "Maior de idade"
 ```

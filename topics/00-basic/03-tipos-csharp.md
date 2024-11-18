@@ -21,3 +21,13 @@
 
 **Tipo Valor x Tipo Referência:**
 - ![tipos_5](/images/tipos_5.png)
+
+### Inferência de tipos: palavra `var`
+A palavra-chave `var` em C# permite a inferência de tipos de dados durante a compilação, o que simplifica a declaração de variáveis, tornando o código mais conciso e legível. A inferência de tipos significa que o compilador determina automaticamente o tipo de dado da variável com base no valor inicial atribuído a ela.
+```csharp
+var nomeDaVariavel = valor;
+
+var numero = 42; // O tipo é inferido como int
+var texto = "Olá, mundo!"; // O tipo é inferido como string
+var pi = 3.14159; // O tipo é inferido como double
+```
