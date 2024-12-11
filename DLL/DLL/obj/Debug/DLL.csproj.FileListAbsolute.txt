@@ -1,5 +1,0 @@
-C:\0 - Personal\portfolio\projects\coding-csharp\DLL\DLL\bin\Debug\DLL.dll
-C:\0 - Personal\portfolio\projects\coding-csharp\DLL\DLL\bin\Debug\DLL.pdb
-C:\0 - Personal\portfolio\projects\coding-csharp\DLL\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
-C:\0 - Personal\portfolio\projects\coding-csharp\DLL\DLL\obj\Debug\DLL.dll
-C:\0 - Personal\portfolio\projects\coding-csharp\DLL\DLL\obj\Debug\DLL.pdb

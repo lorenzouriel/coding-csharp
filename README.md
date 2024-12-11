@@ -18,9 +18,7 @@ Agregarei todo meu conhecimento com a linguagem e tecnologias, para que possamos
 | Pasta | Objetivo |
 |---|---|
 | [topics](/topics/README.md) | Falando sobre diversos tópicos em C# |
-| [bot](/bot/README.md)| Uma introdução aos bots usando C# e .NET Core |
 | [challenges](/challenges/README.md)| Todos os desafios e exercícios que enfrentei no meu aprendizado |
-| [DLL](/dll/README.md)| Uma introdução ao DLL e como criar e testar arquivos DLL |
 
 
 ## 🌊 Clone o Repositório
