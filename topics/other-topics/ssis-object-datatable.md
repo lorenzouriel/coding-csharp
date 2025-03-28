@@ -46,7 +46,7 @@ new OleDbDataAdapter().Fill(dt, data);
 ### 3. Preparing Payload
 ```csharp
 var payload = new {
-    vehiclePositions = new List<object>()
+    positionPeople = new List<object>()
 };
 
 foreach (DataRow row in dt.Rows)
